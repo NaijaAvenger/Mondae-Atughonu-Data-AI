@@ -1,5 +1,5 @@
 ---
-title: 'Analyze Homework #1'
+title: 'Analytic Homework #1'
 author: "Mondae Atughonu"
 date: "1/23/2022"
 output: html_document
@@ -31,15 +31,20 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Exercise 1
 
-Try to create a markdown file (.Rmd) that includeds one simple code chunk below (a). 
+Try to create a markdown file (.Rmd) that includes one simple code chunk below (a). 
 
 a. Sum of 100 and 200.
 
+```{r}
 100+200
+```
 
 What is the sum of 100 and 200?
 
+```{r}
 100+200
+```
+
 
 ## Exercise 2
 
@@ -47,17 +52,30 @@ In Exercise 2, provide simple graphs as examples below.
 
 a.
 
+```{r}
 plot(x=15,y=20,xlab = "Cars", ylab = "MPG")
+```
+
 
 b.
 
 # Define the cars vector with 5 values
+
+```{r}
 cars <- c(5, 10, 15, 20, 25)
+```
+
 
 # Graph cars using green points overlayed by a line 
+
+```{r}
 plot(cars, type="o", col="green")
+```
+
 
 # Create a title with a orange, bold/italic font
-title(main="Cars Data", col.main = "yellow", font.main=4)
-plot(cars,type="o",,col="green",xlab="Cars",ylab="MPG",main="Cars Data", col.main = "orange", font.main=4)
+
+```{r}
+plot(cars,type="o",col="green",xlab="Cars",ylab="MPG",main="Cars Data", col.main = "orange", font.main=4)
+```
 
